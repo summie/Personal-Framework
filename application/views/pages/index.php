@@ -4,5 +4,6 @@
  * User: Lisanne
  * Date: 20-12-2017
  */
+?>
 
-echo 'HOME PAGINA';
+<h1><?php echo $data['title'] ?></h1>
