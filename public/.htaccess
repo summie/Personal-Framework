@@ -1,0 +1,14 @@
+# Checkt of de module is geactiveerd. (Normaal standaard actief)
+<IfModule mod_rewrite.c>
+# Disabled multiviews.
+  Options -Multiviews
+# Zet de RewriteEngine alleen aan
+  RewriteEngine On
+# Zet deze Rewrite url base correct voor eigen projecten
+#  RewriteBase kickoff.dev/
+# Het kijkt in Framework/public of het bestand in de public zit
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+# Anders laat index.php zien.
+  RewriteRule  ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>
