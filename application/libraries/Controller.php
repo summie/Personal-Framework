@@ -11,7 +11,7 @@
      // Ophalen model
      public function model($model){
          // Vereist model bestand
-         require_once '../application/models' . $model . '.php';
+         require_once '../application/models/' . $model . '.php';
 
 
          // Bevestig model

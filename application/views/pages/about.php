@@ -4,5 +4,6 @@
  * User: Lisanne
  * Date: 20-12-2017
  */
-
-echo 'ABOUT PAGINA';
+require APPROOT . '/views/inc/header.php'; ?>
+    <h1><?php echo $data['title'] ?></h1>
+<?php require APPROOT . '/views/inc/footer.php'; ?>
