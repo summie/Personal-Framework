@@ -14,7 +14,6 @@ Class Core{
     protected $params = [];
 
     public function __construct(){
-        //print_r($this->getUrl());
 
         $url = $this->getUrl();
 
