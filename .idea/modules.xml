@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Frameworkmvc.iml" filepath="$PROJECT_DIR$/.idea/Frameworkmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/../schoolkickoff/.idea/schoolkickoff.iml" filepath="$PROJECT_DIR$/../schoolkickoff/.idea/schoolkickoff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shareposts/.idea/shareposts.iml" filepath="$PROJECT_DIR$/../shareposts/.idea/shareposts.iml" />
     </modules>
   </component>
 </project>
