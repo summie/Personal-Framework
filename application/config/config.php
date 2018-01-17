@@ -5,10 +5,10 @@
  * Date: 20-12-2017
  */
 // DB Parameters
-define('DB_HOST','localhost');
-define('DB_USER','root');
+define('DB_HOST','');
+define('DB_USER','');
 define('DB_PASS','');
-define('DB_NAME','schoolkickoff');
+define('DB_NAME','');
 
 // Applicatie Root
     define('APPROOT',dirname(dirname(__FILE__)));
@@ -17,4 +17,4 @@ define('DB_NAME','schoolkickoff');
     define('URLROOT', 'http://localhost/framework/');
 
 // Site Naam
-    define('SITENAME', 'Kickoff');
+    define('SITENAME', 'Framework Demo');
